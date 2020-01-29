@@ -15,7 +15,7 @@ public class BallController : MonoBehaviour
         rigit = gameObject.GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 tilt = Input.acceleration;
         //rotate acceleration input to have 0 on 
