@@ -11,6 +11,8 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
+        //Make phone never go sleep in game
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         //Try to load saved file, if it exists
         PlayerData data = SaveSystem.Load();
         if (data != null)

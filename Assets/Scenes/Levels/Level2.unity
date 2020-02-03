@@ -3331,7 +3331,7 @@ MonoBehaviour:
   wconfetti: {fileID: 1309140190}
   timer: {fileID: 1309140187}
   pretimer: {fileID: 1309140186}
-  starttime: 35
+  starttime: 25
   pretimerstart: 5
   word: Time
   style: 0.0

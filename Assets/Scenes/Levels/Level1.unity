@@ -2859,8 +2859,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1689208457}
-  - component: {fileID: 1689208456}
   - component: {fileID: 1689208458}
+  - component: {fileID: 1689208456}
   m_Layer: 0
   m_Name: LevelSettings
   m_TagString: Untagged
@@ -2887,7 +2887,7 @@ MonoBehaviour:
   wconfetti: {fileID: 139829463370728372}
   timer: {fileID: 1932394998}
   pretimer: {fileID: 1075970340}
-  starttime: 20
+  starttime: 15
   pretimerstart: 5
   word: Time
   style: 0.0
@@ -3894,6 +3894,31 @@ PrefabInstance:
       propertyPath: colorArray.Array.data[7].a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1292041953964294863, guid: a72e949fff569ff468a222b335862f3d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292041953964294863, guid: a72e949fff569ff468a222b335862f3d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816333342703863685, guid: a72e949fff569ff468a222b335862f3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792661651461812506, guid: a72e949fff569ff468a222b335862f3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843391153424086318, guid: a72e949fff569ff468a222b335862f3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1622041062845628472, guid: a72e949fff569ff468a222b335862f3d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a72e949fff569ff468a222b335862f3d, type: 3}
@@ -4013,6 +4038,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7533364571023944029, guid: c1922de6ee0b3fe45a64155812a74a9a,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7181981654653510137, guid: c1922de6ee0b3fe45a64155812a74a9a,
         type: 3}
       propertyPath: m_Name
@@ -4073,10 +4103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7533364571023944029, guid: c1922de6ee0b3fe45a64155812a74a9a,
+    - target: {fileID: 3809886992364030803, guid: c1922de6ee0b3fe45a64155812a74a9a,
         type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
+      propertyPath: Force
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1922de6ee0b3fe45a64155812a74a9a, type: 3}
